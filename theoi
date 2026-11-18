@@ -528,7 +528,7 @@ int main () {
 		score=0;
 		
 		printf ("poios htan o pateras tou ari?\n");
-		printf ("1)aris\n2)ifaistos\n3)ermis\n4)dias\n");
+		printf ("1)aris\n2)ifaistos\n3)ermis\n4)kronos\n");
 		scanf ("%d",&x);
 		if  (x==4) {
 		printf("correct");
@@ -539,7 +539,7 @@ int main () {
 		}
 	    
 	    printf ("poia htan h mhtera toy ari?\n");
-		printf ("1)dimitra\n2)ira\n3)afroditi\n4)persefoni\n");
+		printf ("1)dimitra\n2)rea\n3)afroditi\n4)persefoni\n");
 		scanf ("%d",&x);
 		if  (x==2) {
 		printf("correct\n");
@@ -550,7 +550,7 @@ int main () {
 		}
 		
 		printf("poio einai paidi tou ari?"); 
-		printf("1)athina\n2)foivos\n3)aris\n4)iasonas"); 
+		printf("1)athina\n2)fovos\n3)aris\n4)iasonas"); 
 		scanf("%d",&x);
 		if (x==2) { 
 			printf("correct\n");
@@ -561,8 +561,8 @@ int main () {
 			}
 		
 				
-		printf("o aris htah:");
-		printf("1)ithaki\n2)ikaria\n3)limnos\n4)kerkyra");
+		printf("o aris htan theos tou/ths:");
+		printf("1)polemou\n2)olympou\n3)ouranou\n4)oikogenias");
 		scanf("%d",&x);
 		if (x==1)  { 
 		 printf("correct\n");
@@ -572,8 +572,8 @@ int main () {
 	      printf ("wrong\n"); 
 		}
 	    
-	    printf("pws legan thn magissa pou sunantise?");
-	    printf("1)kirki\n2)mideia\n3)selini\n4)eleni");
+	    printf("poio to iero zwo tou ari?");
+	    printf("1)skulos\n2)gata\n3)alogo\n4)fidi");
 	    scanf("%d",&x);
 	    if (x==1) {
 	    	 printf("correct\n");
@@ -596,6 +596,154 @@ int main () {
 		else {
 			printf ("janaprospathise\n");
 			goto aris;		}	
+		
+	
+	poseidonas:
+		score=0;
+		
+		printf ("poios htan o pateras tou poseidona?\n");
+		printf ("1)aris\n2)ifaistos\n3)ermis\n4)kronos\n");
+		scanf ("%d",&x);
+		if  (x==4) {
+		printf("correct");
+		score++;
+	    }
+		else {
+			printf ("wrong\n");
+		}
+	    
+	    printf ("poia htan h mhtera toy poseidona?\n");
+		printf ("1)dimitra\n2)ira\n3)afroditi\n4)rea\n");
+		scanf ("%d",&x);
+		if  (x==2) {
+		printf("correct\n");
+		score=score+1;
+	    }
+		else {
+			printf ("wrong\n");
+		}
+		
+		printf("poio einai paidi tou poseidona?"); 
+		printf("1)athina\n2)thiseas\n3)aris\n4)iasonas"); 
+		scanf("%d",&x);
+		if (x==2) { 
+			printf("correct\n");
+			score++;
+		}
+		else {
+			printf ("wrong\n");	
+			}
+		
+				
+		printf("o poseidonas htan theos toh/ths:");
+		printf("1)thalassas\n2)polemou\n3)oikogeneias\n4)ghs");
+		scanf("%d",&x);
+		if (x==1)  { 
+		 printf("correct\n");
+		 score=score+1;
+     	    }
+	    else { 
+	      printf ("wrong\n"); 
+		}
+	    
+	    printf("pws legan thn gunaika tou?");
+	    printf("1)amfitrith\n2)mideia\n3)selini\n4)eleni");
+	    scanf("%d",&x);
+	    if (x==1) {
+	    	 printf("correct\n");
+		 score=score+1;
+		}
+		else {
+			 printf ("wrong\n");
+		}
+		    
+	   
+		
+		
+		
+		
+		
+		
+		if (score==5) {
+			printf ("proxoras parakato\n");
+		}
+		else {
+			printf ("janaprospathise\n");
+			goto poseidonas;		}	
+		
+		
+	dionysos:
+		score=0;
+		
+		printf ("poios htan o pateras tou dionysou?\n");
+		printf ("1)aris\n2)ifaistos\n3)ermis\n4)dias\n");
+		scanf ("%d",&x);
+		if  (x==4) {
+		printf("correct");
+		score++;
+	    }
+		else {
+			printf ("wrong\n");
+		}
+	    
+	    printf ("poia htan h mhtera toy dionysou?\n");
+		printf ("1)dimitra\n2)semeli\n3)afroditi\n4)persefoni\n");
+		scanf ("%d",&x);
+		if  (x==2) {
+		printf("correct\n");
+		score=score+1;
+	    }
+		else {
+			printf ("wrong\n");
+		}
+		
+		printf("poio einai paidi tou dionysou?"); 
+		printf("1)thiseas\n2)oinopionas\n3)foivos\n4)iasonas"); 
+		scanf("%d",&x);
+		if (x==2) { 
+			printf("correct\n");
+			score++;
+		}
+		else {
+			printf ("wrong\n");	
+			}
+		
+				
+		printf("o dionysos htan theos tou/ths:");
+		printf("1)krasiou\n2)omorfias\n3)gewrgias\n4)thalassas");
+		scanf("%d",&x);
+		if (x==1)  { 
+		 printf("correct\n");
+		 score=score+1;
+     	    }
+	    else { 
+	      printf ("wrong\n"); 
+		}
+	    
+	    printf("pws legan thn gunaika pou pantreftike?");
+	    printf("1)ariadni\n2)mideia\n3)selini\n4)eleni");
+	    scanf("%d",&x);
+	    if (x==1) {
+	    	 printf("correct\n");
+		 score=score+1;
+		}
+		else {
+			 printf ("wrong\n");
+		}
+		    
+	   
+		
+		
+		
+		
+		
+		
+		if (score==5) {
+			printf ("proxoras parakato\n");
+		}
+		else {
+			printf ("janaprospathise\n");
+			goto dionysos;		}	
 		
 			
     return 0; 
